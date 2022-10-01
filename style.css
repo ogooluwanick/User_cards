@@ -34,6 +34,7 @@ main>div{
         height: 400px;
         perspective: 1000px;
         border-radius: 5px;
+        margin-bottom: 1rem;
 
         
 }
@@ -48,7 +49,8 @@ main>div{
         text-align: center;
         transition: transform 0.6s;
         transform-style: preserve-3d;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+
         border-radius: 5px;
       }
       
@@ -66,6 +68,8 @@ main>div{
         width: 100%;
         height: 100%;
         border-radius: 5px;
+        /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.2); */
+
 
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
@@ -74,6 +78,7 @@ main>div{
       .flip-card-front {
         background-color: snow;
         color: black;
+        
       }
       
       .flip-card-back {
