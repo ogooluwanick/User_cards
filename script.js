@@ -3,7 +3,12 @@ let url="https://random-data-api.com/api/users/random_user?size=10"
 fetch(url).then(res=>res.json())
                 .then(data=>{
 
-                        
+                                console.log(data)
+                                const btnRand=document.getElementById("btnRand").onclick=()=>{
+                                                                        location.reload()
+                                }
+
+                                
 
                         let box=document.getElementsByTagName("main")[0]
                         let child=document.createElement("div")
@@ -54,6 +59,9 @@ fetch(url).then(res=>res.json())
 
                                 
                         }
+
+                                
+
 
                         }
                         
