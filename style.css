@@ -87,6 +87,9 @@ main>div{
         transform: rotateY(180deg);
       }
 
+      .flip-card-back>h2,.flip-card-back>p{
+        padding: 0.6rem;
+      }
 header{
         display: flex;
         justify-content: center;
